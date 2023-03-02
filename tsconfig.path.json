@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "paths": {
+      "@assets": ["src/assets/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@api/*": ["src/api/*"],
+      "@models/*": ["src/models/*"],
+      "@utils/*": ["src/utils/*"],
+      "@components/*": ["src/components/*"],
+      "@enums/*": ["src/enums/*"],
+      "@service/*": ["src/redux/features/*"],
+      "@app-stores/*": ["src/redux/*"],
+      "@translation/*": ["src/translations/*"],
+      "@pages/*": ["src/pages/*"]
+    },
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"]
+}
