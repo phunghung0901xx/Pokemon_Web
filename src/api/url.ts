@@ -1,5 +1,3 @@
-/* Copyright (c) 2022 TORITECH */
-
 const apiUrls = {
   baseUrl: process.env.REACT_APP_API_BASE_PATH,
   auth: {

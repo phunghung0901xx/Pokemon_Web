@@ -2146,6 +2146,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-helmet@^6.1.6":
+  version "6.1.6"
+  resolved "https://registry.npmjs.org/@types/react-helmet/-/react-helmet-6.1.6.tgz"
+  integrity sha512-ZKcoOdW/Tg+kiUbkFCBtvDw0k3nD4HJ/h/B9yWxN4uDO8OkRksWTO+EL+z/Qu3aHTeTll3Ro0Cc/8UhwBCMG5A==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18.0.26":
   version "18.0.28"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.0.28.tgz"
@@ -3393,11 +3400,6 @@ commander@^2.20.0:
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-commander@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/commander/-/commander-3.0.2.tgz"
-  integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
-
 commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
@@ -3501,13 +3503,6 @@ copy-to-clipboard@^3.2.0:
   integrity sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==
   dependencies:
     toggle-selection "^1.0.6"
-
-copyright-header@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.npmjs.org/copyright-header/-/copyright-header-0.4.6.tgz"
-  integrity sha512-hgGACVnDvkkFd7i4S0i5aMQBrljUT9O8Dzos+3itkcjKFiCOJGIhwt5IgB1XT4eHZ9AAS4fngPOWyPxBgueaUQ==
-  dependencies:
-    commander "^3.0.0"
 
 core-js-compat@^3.25.1:
   version "3.28.0"

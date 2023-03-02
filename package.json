@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "reactjs_temple",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,10 +14,9 @@
     "@types/redux-actions": "^2.6.2",
     "antd": "^5.1.2",
     "axios": "^1.2.2",
-    "copyright-header": "^0.4.6",
+    "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "prettier": "^2.8.1",
-    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-cookie": "^4.1.1",
     "react-dom": "^18.2.0",
@@ -29,16 +28,9 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@craco/craco": "^7.0.0",
-    "@types/lodash": "^4.14.188",
+    "@types/lodash": "^4.14.191",
     "@types/react-helmet": "^6.1.6",
-    "@types/react-html5-camera-photo": "^1.5.1",
-    "@types/uuid": "^8.3.4",
-    "clsx": "^1.2.1",
-    "lodash": "^4.17.21",
-    "redux-logger": "^3.0.6",
-    "sass": "^1.56.1",
-    "uuid": "^9.0.0"
+    "tailwindcss": "^3.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -63,9 +55,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.191",
-    "tailwindcss": "^3.2.4"
   }
 }
