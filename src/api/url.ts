@@ -3,9 +3,9 @@ const apiUrls = {
   auth: {
     staffLogin: '/Staff/loginStaff',
     logout: 'logout',
-    tokenLogin: 'verify'
+    tokenLogin: 'verify',
   },
-  
-}
 
-export default apiUrls
+};
+
+export default apiUrls;

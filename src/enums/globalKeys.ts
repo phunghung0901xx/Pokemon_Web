@@ -2,7 +2,7 @@ const GlobalKeys = {
   AUTH_TOKEN: 'KEY_AUTH_TOKEN',
   ACCESS_TOKEN: 'KEY_ACCESS_TOKEN',
   REFRESH_TOKEN: 'KEY_REFRESH_TOKEN',
-  PRELOADED_STATE: 'PRELOADED_STATE'
-}
+  PRELOADED_STATE: 'PRELOADED_STATE',
+};
 
-export default GlobalKeys
+export default GlobalKeys;
