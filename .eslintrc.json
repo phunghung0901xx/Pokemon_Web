@@ -1,4 +1,3 @@
-
 {
     "env": {
         "browser": true,
@@ -11,7 +10,9 @@
         "airbnb",
         "airbnb-typescript",
         "plugin:import/typescript",
-        "plugin:prettier/recommend"
+        "plugin:prettier/recommend",
+        "plugin:@typescript-eslint/recommended",
+        "eslint:recommended"
     ],
     "parser":"@typescript-eslint/parser",
     "overrides": [
@@ -33,6 +34,11 @@
     "rules": {
      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
      "react/jsx-in-jsx-scope":["off"],
-     "react/jsx-uses-react":["off"]
+     "react/jsx-uses-react":["off"],
+     "react/jsx-props-no-spreading":["wan"],
+     "no-shadow":"off",
+     "prettier/prettier": "error", 
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
     }
 }
