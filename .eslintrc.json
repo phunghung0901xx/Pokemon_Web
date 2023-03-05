@@ -10,9 +10,10 @@
         "airbnb",
         "airbnb-typescript",
         "plugin:import/typescript",
-        "plugin:prettier/recommend",
         "plugin:@typescript-eslint/recommended",
-        "eslint:recommended"
+        "eslint:recommended",
+        "prettier"
+
     ],
     "parser":"@typescript-eslint/parser",
     "overrides": [
@@ -35,10 +36,21 @@
      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
      "react/jsx-in-jsx-scope":["off"],
      "react/jsx-uses-react":["off"],
-     "react/jsx-props-no-spreading":["wan"],
+     "react/jsx-props-no-spreading":["warn"],
      "no-shadow":"off",
      "prettier/prettier": "error", 
     "arrow-body-style": "off",
-    "prefer-arrow-callback": "off"
+    "prefer-arrow-callback": "off",
+    "no-param-reassign": 0,
+    "import/prefer-default-export": "off",
+    "react/require-default-props": "warn",
+    "class-methods-use-this": "off",
+    "react/function-component-definition": [
+        "error",
+        {
+          "namedComponents": ["function-declaration", "arrow-function"],
+          "unnamedComponents": "arrow-function"
+        }
+      ]
     }
 }

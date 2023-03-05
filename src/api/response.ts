@@ -11,8 +11,8 @@ export interface HttpResponse {
 export const DEFAULT_ERROR_RESPONSE: HttpResponse = {
   statusCode: 500,
   statusText: 'Failed',
-  error: true,
-};
+  error: true
+}
 
 export const createResponseData = (response: any) => {
   const httpResponse: HttpResponse = {
@@ -20,21 +20,21 @@ export const createResponseData = (response: any) => {
     statusText: response?.statusText || '',
     data: response?.data,
     headers: response?.headers,
-    message: response?.message || '',
-  };
+    message: response?.message || ''
+  }
   if (response) {
-    httpResponse.success = response.success;
+    httpResponse.success = response.success
     if (response.Problem && response.Problem === 'TIMEOUT_ERROR') {
-      httpResponse.message = 'Request timeout';
+      httpResponse.message = 'Request timeout'
     }
     if (Array.isArray(response.data)) {
-      httpResponse.data = { items: response.data };
+      httpResponse.data = { items: response.data }
     } else {
-      httpResponse.data = response.data;
+      httpResponse.data = response.data
     }
   }
-  return httpResponse;
-};
+  return httpResponse
+}
 
 export const createCustomResponseData = (response: any) => {
   const httpResponse: HttpResponse = {
@@ -42,8 +42,8 @@ export const createCustomResponseData = (response: any) => {
     statusText: response.statusText,
     data: response.data,
     headers: response.headers,
-    message: response.message || '',
-  };
+    message: response.message || ''
+  }
   // TODO: add your custom object mapping here
-  return httpResponse;
-};
+  return httpResponse
+}
